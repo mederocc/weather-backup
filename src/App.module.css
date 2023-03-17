@@ -1,0 +1,28 @@
+.app-container {
+  /* border: solid green 3px; */
+  display: "flex";
+  flex-direction: "column";
+}
+
+.header {
+  /* border: solid blue 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  font-size: 1.3rem;
+}
+
+.loading {
+  /* border: blue solid 3px; */
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 30vh;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: auto;
+  margin-bottom: 5rem;
+  margin-top: 20rem;
+}

@@ -1,0 +1,49 @@
+.current-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  /* border: 3px solid blue; */
+  border-radius: 2rem;
+  padding-top: 1.5rem;
+  backdrop-filter: blur(10px);
+  padding: 6rem;
+  padding-top: 0;
+}
+
+.current-container > div {
+  display: flex;
+  /* border: red solid 3px; */
+  align-items: center;
+  border-radius: 1rem;
+  /* padding: 4rem; */
+  /* margin: 4rem; */
+  margin-top: 0;
+}
+
+.current-container > p {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  white-space: nowrap;
+}
+
+.current-temp {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-left: 3rem;
+}
+
+.current-temp > p {
+  white-space: nowrap;
+}
+
+.background {
+  background-image: url("../utils/background-images/current-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+  border-radius: 2rem;
+  overflow: hidden;
+}

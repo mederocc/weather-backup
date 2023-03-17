@@ -1,0 +1,26 @@
+.day-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1rem;
+  backdrop-filter: blur(100px);
+}
+
+.day-container > div,
+p {
+  display: flex;
+  justify-content: center;
+  /* border: solid 3px green; */
+  width: 10vw;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.day-container {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
